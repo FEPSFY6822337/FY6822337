@@ -215,7 +215,8 @@
     var currentSlide = 0;
 
     function showSlide() {
-      document.getElementById('slide'.src = slideImages[currentSlide];
+      document.getElementById('slide').src = slideImages[currentSlide];
+
     }
     
     function nextSlide(){
@@ -229,7 +230,7 @@
     }
 
     function showSlideNumber(slideNumber) {
-      currentSlide = slideNumber - ;
+      currentSlide = slideNumber - 1;
       ShowSlide();
     }
 
@@ -262,10 +263,11 @@
       
 
       <style>
-        #slide-container { 
-          text-align : center; 
-          position relative; : 
-        } 
+        #slide-container {
+            text-align: center;
+            position: relative;
+        }
+
         
         
         .button-container { 
